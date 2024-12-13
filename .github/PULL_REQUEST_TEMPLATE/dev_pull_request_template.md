@@ -29,26 +29,8 @@
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] Maintenance (documentation, update scripts, update non-major dependencies, etc)
-- [ ] Script fix (non-breaking change which fixes a script issue)
 
-## Automation Checklist
-
-- [ ] Create reusable methods and avoid code duplication
-- [ ] Create efficient methods which makes code readable
-- [ ] Code should be clean and refactor when necessary
-- [ ] Don’t Hard code values
-- [ ] Avoid unnecessary variables/objects in the memory
-- [ ] Avoid sleep & use waits instead.
-- [ ] Use CSS/relative xpaths instead of absolute xpaths
-- [ ] Page objects should be unique as well as robust
-- [ ] Code should be able to accommodate cross-platform compatibility
-- [ ] Assertion should be placed separately
-- [ ] Test data should come from API
-- [ ] Use Step annotation for methods to clearly describe an action
-
-### Testing
-
-## How Has This Been Validated
+## How Has This Been Tested
 <!-- Mark the platform that you have tested -->
 <!-- 🎯 = required apps -->
 
@@ -84,7 +66,17 @@
 - [ ] Simulator (Web Browser)
 - [ ] Device: <!-- ✏️ Please specify your device -->
 
-### Allure Reports
-- [ ] I have attached Allure report from atleast 3 platforms or devices
-- [ ] I have attached Allure report from atleast 3 platforms or devices
-- [ ] I have attached Allure report from atleast 3 platforms or devices
+## Developer Checklist
+  <!-- 🎯 Must have at least one mark -->
+  <!-- If marking as Not Necessary, it's expected that you also provide an explanation why that is not necessary -->
+
+- [ ] **Checking this box confirms this code is either behind a Feature Flag or does not need to be. (required)**
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] My pull request has a correctly formatted title `{ticket-ID} - description`
+- [ ] I have performed a self-review of my code
+- [ ] I have commented on my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have verified that my changes don't negatively impact any of the required platforms
+- [ ] I have requested the necessary translation for the new feature
+- [ ] I verified my code passes all CI checks, linters, jest tests, builds, and e2e tests
